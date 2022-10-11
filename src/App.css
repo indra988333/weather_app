@@ -1,38 +1,31 @@
-.App {
-  text-align: center;
+.weatherBg{
+    background: url(https://source.unsplash.com/random/?weather);
+    height: 45vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.head{
+    color:white;
+    font-weight: 400;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.weatherResultBox{
+    margin: auto;
+    width: 650px;
+    height: 300px;
 }
+.Wicon{
+    margin-top: 2rem;
+    width: 100px;
+    height: 100px;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.wCity{
+    font-size:40px ;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.wTemp{
+    font-size: 20px;
+    font-weight: 800;
 }
